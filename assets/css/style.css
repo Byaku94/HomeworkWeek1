@@ -3,11 +3,13 @@
     padding: 0;
     margin: 0;
 }
+ /*-- Background color for the website! */ 
 
 body {
     background-color: #d9dcd6;
 }
 
+/*Top header with the Hori'SEO'n logo on it and links for the 3 main topics on the page*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,7 +19,7 @@ header {
     justify-content: space-between;
     ;
 }
-
+/* styles for "Hori'SEO'n logo*/
 h1 {
     display: flex;
     justify-content: space-between;
@@ -27,7 +29,7 @@ h1 {
 .seo {
     color: #d9dcd6;
 }
-
+ /*styles for the links*/
 ul {
     display: flex;
     justify-content: space-between;
@@ -44,11 +46,11 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*font size for most text on the page || Used for detailed information on articles*/
 p {
     font-size: 16px;
 }
-
+/*Image style for website main page and first-look*/
 .hero {
     height: 800px;
     width: 100%;
@@ -57,7 +59,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*float classes*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,12 +70,13 @@ p {
     margin-left: 25px;
 }
 
+/* represents the entirity of space  taken for the 3 main topics (classes) of the website (search-engine-optimization; online-reputation-management; social-media-marketing) */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Style for the benefits section on right side (20% of width) */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,6 +88,7 @@ p {
     background-color: #2589bd;
 }
 
+/* styles for the varied headers, images and content within the Benefits section */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -133,6 +137,7 @@ p {
     max-width: 150px;
 }
 
+/* 3 main topics on the page*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -159,7 +164,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* 3 Image styles for each image*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -171,6 +176,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+ /*Topic Titles (three styles) <!--could both this and the previous css between this and the last comment be simplified intirely into about 2 classes? not sure so gonna leave it as is. Would like feedback on this, thank you!*/
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -187,6 +193,7 @@ p {
     font-size: 36px;
 }
 
+/*Ending footer Styles (bottom of website)*/
 .footer {
     padding: 30px;
     clear: both;
