@@ -10,3 +10,5 @@ Tidy'ed up the code to make it more readable.
 Changed Title name to something more descriptive.
 
 Added descrptions to the CSS.
+
+Added ID's to the Headers of each article in the content section to have working links.
